@@ -1,0 +1,72 @@
+input{display:block; margin-bottom:5px;}
+#contenedor{text-align:center; margin:0 auto; width:300px;  padding:5px;}
+body {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+
+}
+table {
+margin: auto; 
+border: outset maroon 6px; 
+background: black; 
+cursor: crosshair; 
+}
+td {
+line-height: 0; 
+width: 40px; height: 40px; 
+background: brown; 
+text-align: center; 
+vertical-align: middle; 
+-webkit-touch-callout: none;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+}
+tr:nth-child(odd) td:nth-child(odd), 
+tr:nth-child(even) td:nth-child(even) {
+background: bisque; 
+}
+
+.blancas, .negras {
+display: inline-block; 
+font: 800 30px/1 "ms mincho", "dejavu sans", "dejavu sans condensed", "dejavu sans mono", quivira, "arial unicode ms", code2000, "droid sans fallback", eversonmono, freeserif, "gnu unifont", "segoe ui symbol", "y.ozfont", "unicode bmp fallback sil", serif; 
+width: 80%; height: 80%; 
+background: white; 
+color: black; 
+border: 2px outset dimgrey; 
+border-radius: 100%; 
+overflow: hidden; 
+cursor: -ms-grab; 
+cursor: -moz-grab; 
+cursor: -webkit-grab; 
+cursor: grab; 
+}
+
+.negras {
+background: black; 
+color: white; 
+border: 2px outset gainsboro; 
+}
+
+.mano {
+cursor: -ms-grabbing; 
+cursor: -moz-grabbing; 
+cursor: -webkit-grabbing; 
+cursor: grabbing; 
+}
+
+#fantasma {
+position: absolute; 
+display: none; 
+width: 40px; height: 40px; 
+top:0; left: 0; 
+pointer-events: none; 
+}

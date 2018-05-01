@@ -1,0 +1,15 @@
+input{display:block; margin-bottom:5px;}
+#contenedor{text-align:center; margin:0 auto; width:300px;  padding:5px;}
+body {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+
+}
